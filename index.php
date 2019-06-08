@@ -19,3 +19,5 @@ echo $car2->getPuertas(); // 10
 echo $car2->getKilometraje(); // 128
 
 echo $car2->callToProtectedFunctionSafe(); // OK PROTECTED
+
+Bicicletas::pedalear();

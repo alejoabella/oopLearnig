@@ -1,6 +1,6 @@
 <?php
 
-class Bicicleta extends Vehiculos
+class Bicicletas extends Vehiculos
 {
 
     private $cambios;
@@ -10,6 +10,11 @@ class Bicicleta extends Vehiculos
         $this->cambios = $cambios;
     }
 
+
+    public static function pedalear()
+    {
+        echo "Pedaleando";
+    }
 
     /**
      * Get the value of cambios
@@ -30,5 +35,5 @@ class Bicicleta extends Vehiculos
 
         return $this;
     }
-    
+
 }
